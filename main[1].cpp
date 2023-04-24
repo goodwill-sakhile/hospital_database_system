@@ -17,33 +17,43 @@ int takeIntegerInput(){
 }
 void displayDataRegisteringOptions(){
 	cout << "Registering Screen: " << endl;
-        cout << "(1) Register new Docter" << end
-l;
+        cout << "(1) Register new Docter" << endl;
         cout << "(2) Register new Nurse" << endl;
-        cout << "(2) Register new Patient" << endl;                                             }
+        cout << "(2) Register new Patient" << endl;                                    
+}
 void displayDataUpdatingOptions(){
 	cout << "Update Screen: " << endl;
-	cout << "(1) Update Docter details " endl;
+
+	cout << "(1) Update Docter details " << endl;
 	cout << "(2) Update Nurse details" << endl;
-	cout << "(3) Update Patients details" << endl;.
+	cout << "(3) Update Patients details" << endl;
+}
+void displayDataDeletionOptions(){
+	cout << "(1) Delete Doctor details " << endl;
+	cout << "(2) Delete Nurse details " << endl;
+	cout << "(3) Delete Patient details " << endl;
+}
 void decideOnTheInteger(int option_integer){
 	if (option_integer == 1){
-		displayDataRegisteringOption();
+		displayDataRegisteringOptions();
 	}
 	else if (option_integer == 2){
+	 
 		displayDataUpdatingOptions();
 	}
 	else if (option_integer == 3){
 		displayDataDeletionOptions();
 	}
+	/*
 	else {
 		displayDataOptions();
 		takeIntegerInput();
-	}
+	}*/
 }
 int main(){
 	displaySystemOptions();
 	int option = takeIntegerInput();
+	decideOnTheInteger(option);
 	cout << "The option is: " << option << endl;
 	return 0;
 }
