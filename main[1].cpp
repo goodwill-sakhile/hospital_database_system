@@ -44,11 +44,10 @@ void decideOnTheInteger(int option_integer){
 	else if (option_integer == 3){
 		displayDataDeletionOptions();
 	}
-	/*
 	else {
 		displayDataOptions();
 		takeIntegerInput();
-	}*/
+	}
 }
 int main(){
 	displaySystemOptions();
