@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+//This cpp file interface with the program and all the files that stores data
 using namespace std;
 void writeLines(string lines[], int number_of_lines, string file_name){
 	ofstream file_object;
@@ -48,12 +49,4 @@ int findChar(char character, string line){
 	int length = getLineLength(line);
 	int count = 0;
 	while (count < length){
-		if (line[count] == ";"){
-			return count;
-		}
-		else{
-			count++;
-		}
-	}
-	return -1;
-}
+		if (line
