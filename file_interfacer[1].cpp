@@ -4,6 +4,7 @@
 //This cpp file interface with the program and all the files that stores data
 using namespace std;
 void writeLines(string lines[], int number_of_lines, string file_name){
+	//write lines on a file and save it
 	ofstream file_object;
 	file_object.open(file_name);
 	string line;
