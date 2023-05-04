@@ -7,10 +7,8 @@ void writeColumnsNames{
 	file_object << "Id;Name;Surname;Wards";
 }
 void registerPatient(string id, string name, string surname, string wards){
+	//function to call when registering patients
 	string line;
 	line = id+";"+name+";"+surname+";"+wards;
 	ofstream file_object;
 	file_object.open("patients_info.txt", ios:app);
-	file_object << line;
-	file_object.close();
-}
