@@ -7,6 +7,7 @@ void writeColumnsNames{
 	file_object << "Id;Name;Surname;Wards";
 }
 void registerNurse(string id, string name, string surname, string wards){
+	//function that stores nures details on file
 	string line;
 	line = id+";"+name+";"+surname+";"+wards;
 	ofstream file_object;
