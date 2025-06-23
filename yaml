@@ -1,0 +1,19 @@
+
+---
+
+## Prerequisites
+
+- Java JDK 11 or higher
+- Command-line environment (Terminal, PowerShell, etc.)
+
+---
+
+## Build & Run
+
+### Linux/macOS
+
+Run:
+
+```bash
+chmod +x build.sh
+./build.sh
