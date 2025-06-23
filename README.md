@@ -20,4 +20,21 @@ A comprehensive **Java-based Hospital Management System** with no GUI, designed 
 
 ## Project Structure
 
+src/
+├── com/hms/
+│ ├── admin/
+│ ├── audit/
+│ ├── cli/
+│ ├── discharge/
+│ ├── emergency/
+│ ├── insurance/
+│ ├── model/
+│ ├── persistence/
+│ ├── reporting/
+│ ├── scheduling/
+│ ├── security/
+│ ├── service/
+│ ├── test/
+│ ├── util/
+│ └── vaccination/
 
