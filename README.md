@@ -37,4 +37,3 @@ src/
 │ ├── test/
 │ ├── util/
 │ └── vaccination/
-
